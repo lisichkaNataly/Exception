@@ -5,9 +5,9 @@ public class Main {
             ThrowDemo.demo();
         }
         catch (NullPointerException e){
-            System.out.println("Повторный перехват исключения: " + e);
+            System.out.println("повторный перехват исключения: " + e);
         }
-        System.out.println("Работа программы завершена");
+        System.out.println("работа программы завершена");
 
 }
 }
