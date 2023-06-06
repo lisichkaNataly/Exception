@@ -2,7 +2,7 @@ public class ThrowDemo {
 
     static void demo(){
         try {
-            NullPointerException exception = new NullPointerException("Ошибка");
+            NullPointerException exception = new NullPointerException("Ошибка!");
             throw exception;
         }
         catch (NullPointerException e){
